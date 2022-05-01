@@ -1,20 +1,26 @@
 h1 {
 border: 0.5rem outset pink;
-border-radius: 12px;
+border-radius: 6px;
 font-family: verdana;
 color: white;
 text-align: center;
 }
 
 p {
+border: 0.5rem outset pink;
+border-radius: 12px;
 font-family: verdana;
 font-size: 20px;
+color: white;
 text-align: center;
 }
 
 p1 {
+border: 0.5rem outset pink;
+border-radius: 6px;
 font-family: verdana;
 font-size: 20px;
+color: white;
 text-align: center;
 }
 </style>
