@@ -1,13 +1,13 @@
 h1 {
-border: 0.5rem outset pink;
+border: 0.5rem outset red;
 border-radius: 6px;
-font-family: verdana;
+font-family: lucida console;
 color: white;
 text-align: center;
 }
 
 p {
-border: 0.5rem outset pink;
+border: 0.5rem outset red;
 border-radius: 12px;
 font-family: verdana;
 font-size: 20px;
@@ -16,7 +16,7 @@ text-align: center;
 }
 
 p1 {
-border: 0.5rem outset pink;
+border: 0.5rem outset red;
 border-radius: 6px;
 font-family: verdana;
 font-size: 20px;
