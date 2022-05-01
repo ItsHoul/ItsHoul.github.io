@@ -1,14 +1,17 @@
 h1 {
+color:white;
 border:2px solid red;
 border-radius: 6px;
 font-family: lucida console;
-font-size: 30px
-color: white;
+font-size: 30px;
 text-align: center;
 }
 
 p {
 color:white;
+font-family: verdana;
+font-size: 15px;
+text-align: center;
 background-color:rgb(26, 26, 26);
 }
 
