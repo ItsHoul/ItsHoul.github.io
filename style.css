@@ -2,24 +2,16 @@ h1 {
 border: 0.5rem outset red;
 border-radius: 6px;
 font-family: lucida console;
+font-size: 30px
 color: white;
 text-align: center;
 }
 
-p {
-border: 0.5rem outset red;
-border-radius: 12px;
-font-family: verdana;
-font-size: 20px;
-color: white;
-text-align: center;
-}
-
-p1 {
-border: 0.5rem outset red;
+ul {
+border: 2px solid red;
 border-radius: 6px;
 font-family: verdana;
-font-size: 20px;
+font-size: 15px;
 color: white;
 text-align: center;
 }
