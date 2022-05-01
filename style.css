@@ -7,6 +7,11 @@ color: white;
 text-align: center;
 }
 
+p {
+color:white;
+background-color:rgb(85, 46, 153);
+}
+
 ul {
 border: 2px solid red;
 border-radius: 6px;
