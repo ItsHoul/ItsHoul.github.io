@@ -1,5 +1,5 @@
 h1 {
-border: 0.5rem outset red;
+border:2px solid red;
 border-radius: 6px;
 font-family: lucida console;
 font-size: 30px
@@ -9,16 +9,17 @@ text-align: center;
 
 p {
 color:white;
-background-color:rgb(85, 46, 153);
+background-color:rgb(26, 26, 26);
 }
 
 ul {
-border: 2px solid red;
+border:2px solid red;
 border-radius: 6px;
 font-family: verdana;
 font-size: 15px;
 color: white;
 text-align: center;
+background-color:rgb(26, 26, 26);
 }
 </style>
 
