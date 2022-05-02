@@ -1,8 +1,7 @@
 h1 {
 color:white;
-border:2px solid red;
-border-radius: 6px;
-font-family: lucida console;
+background-color:rgb(247, 69, 69);
+font-family: verdana;
 font-size: 30px;
 text-align: center;
 }
