@@ -2,23 +2,21 @@ h1 {
 color:white;
 background-color:rgb(247, 69, 69);
 font-family: verdana;
-font-size: 30px;
-text-align: center;
+font-size: 50px;
+text-align: start;
 }
 
 p {
 color:white;
 font-family: verdana;
-font-size: 15px;
+font-size: 35px;
 text-align: center;
 background-color:rgb(26, 26, 26);
 }
 
 ul {
-border:2px solid red;
-border-radius: 6px;
 font-family: verdana;
-font-size: 15px;
+font-size: 25px;
 color: white;
 text-align: center;
 background-color:rgb(26, 26, 26);
