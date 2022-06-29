@@ -1,2 +1,2 @@
-# ItsHoul.github.io
-Забивной сайт забивного пацанчика на гытхуб пагес)
+# Bro
+"Are you even aware that your site has syntax errors XD"
