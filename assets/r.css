@@ -114,17 +114,17 @@ transition-duration: 0.15s;
   background-color:rgb(13,13,13);
   text-align: center;
   cursor: pointer;
-  width: 50%;
+  width: 35%;
   margin-left: 25%;
   border-radius: 10px;
   text-decoration: none;
-  transition-duration: 0.15s;
+  transition-duration: 0.3s;
 }
 
 
 .button:hover {
-  background-color:rgb(170, 108, 217);
-    width: 100%;
+  background-color:rgb(130, 68, 177);
+    width: 68.9%;
     margin-left: 0px;
 }
 
