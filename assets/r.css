@@ -94,6 +94,10 @@ width: 200px;
 transition-duration: 0.15s;
 }
 
+.roundedimg {
+  border-radius: 10px;
+  border: rgb(160, 0, 255) 2.5px solid;
+}
 
 .title {
   color: grey;
