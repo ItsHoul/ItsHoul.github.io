@@ -115,17 +115,15 @@ transition-duration: 0.15s;
   text-align: center;
   cursor: pointer;
   width: 35%;
-  margin-left: 25%;
   border-radius: 10px;
   text-decoration: none;
-  transition-duration: 0.3s;
+  transition-duration: 0.42s;
 }
 
 
 .button:hover {
   background-color:rgb(130, 68, 177);
-    width: 68.9%;
-    margin-left: 0px;
+    width: 28.9%;
 }
 
 @media screen and (max-width: 900px) {
