@@ -6,9 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="background-color:rgb(20,20,20);">
-  <video style="position:fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);transition: opacity 0.1s;" width=100vw height=100vh autoplay muted onended="opacity: 0">
+   <video id="enterance" style="position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; overflow: hidden;transition: opacity 0.1s;" autoplay muted onended="setTimeout(function(){document.getElementById('enterance').remove();}, 100);">
    <source src="../assets/enterance.mp4" type="video/mp4">
   </video>
+  <div style="transition: opacity: 0.1.1s; opacity: 0" id="all-content">
 <div class="about-section">
   <ul>
     <div style="margin-left: 15.25px">
@@ -70,7 +71,7 @@
 <h1 style="font-size:30px;text-align: center;padding-left:0px;">Found it interesting?</h1>
 <h1 style="font-size:15px;text-align: center;padding-left:0px;">Add the bot to your server and try it yourself!</h1>
 <p style="text-align: center; padding-left: 0px;"><a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=972485522465374248&amp;permissions=8&amp;scope=bot%20applications.commands"><button class="button">Add the bot</button></a></p>
-  
+  </div>
 
 </body>
 </html>
