@@ -10,20 +10,19 @@
         document.getElementById("all-content").style.opacity = "1";
       }, 300);
 });
+          function e1a() {
+               document.getElementById("e1").innerHTML = "Simple interserver chat across different servers. Send a message to all servers at once. For example you can send 💀 message to every server with only one command.";
+          }
+          
+          function e2a() {
+               document.getElementById("e2").innerHTML = "This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! You can also view top 10 richest users in the server 💸";
+          }
+          
+          function e3a() {
+               document.getElementById("e3").innerHTML = "Simple info commands and a bit of fun commands... Eh, like, you can throw slippers at the user for example... Eh, like, you can throw slippers at the user for example.";
+          }
+          
   </script>
-     <style>
-          #e1:active {
-               content: "Simple interserver chat across different servers. Send a message to all servers at once. For example you can send 💀 message to every server with only one command.";
-          }
-          
-          #e2:active {
-               content: "This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! You can also view top 10 richest users in the server 💸";
-          }
-          
-          #e3:active {
-               content: "Simple info commands and a bit of fun commands... Eh, like, you can throw slippers at the user for example... Eh, like, you can throw slippers at the user for example."
-          }
-     </style>
 </head>
 <body style="background-color:rgb(20,20,20);">
   <div style="transition: opacity 0.3s; opacity: 0" id="all-content">
@@ -57,7 +56,7 @@
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/reila.gif" alt="icon" /></h2>
         <h2>Interserver</h2>
-        <p id="e1" class="title">Simple interserver chat across different servers. Send a message to all servers at once. ...</p>
+        <p id="e1" onclick="e1a()" class="title">Simple interserver chat across different servers. Send a message to all servers at once. ...</p>
       </div>
     </div>
   </div>
@@ -68,7 +67,7 @@
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/economy.png" alt="icon" /></h2>
         <h2>Economy</h2>
-        <p id="e2" class="title">This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! ...</p>
+        <p id="e2" onclick="e2a()" class="title">This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! ...</p>
       </div>
     </div>
   </div>
@@ -79,7 +78,7 @@
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/commands.png" alt="icon" /></h2>
         <h2>Other stuff</h2>
-        <p id="e3" class="title">Simple info commands and a bit of fun commands ...</p>
+        <p id="e3" onclick="e3a()" class="title">Simple info commands and a bit of fun commands ...</p>
       </div>
     </div>
   </div>
