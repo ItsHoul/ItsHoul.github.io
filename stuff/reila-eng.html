@@ -4,9 +4,19 @@
 <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 <link rel="stylesheet" href="https://houl.ml/assets/r.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script>
+    document.addEventListener("DOMContentLoaded", function(){
+      setTimeout(function(){
+        document.getElementById("all-content").style.opacity = "1";
+      }, 1000);
+});
+  </script>
 </head>
 <body style="background-color:rgb(20,20,20);">
-
+   <video id="enterance" style="position: absolute; top: 0; bottom: 0; width: 100%; height: 100%; overflow: hidden;transition: opacity 0.1s;" autoplay muted onended="setTimeout(function(){document.getElementById('enterance').remove();}, 100);">
+   <source src="../assets/enterance-eng.mp4" type="video/mp4">
+  </video>
+  <div style="transition: opacity: 0.1.1s; opacity: 0" id="all-content">
 <div class="about-section">
   <ul>
     <div style="margin-left: 15.25px">
@@ -68,7 +78,7 @@
 <h1 style="font-size:30px;text-align: center;padding-left:0px;">Found it interesting?</h1>
 <h1 style="font-size:15px;text-align: center;padding-left:0px;">Add the bot to your server and try it yourself!</h1>
 <p style="text-align: center; padding-left: 0px;"><a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=972485522465374248&amp;permissions=8&amp;scope=bot%20applications.commands"><button class="button">Add the bot</button></a></p>
-  
+  </div>
 
 </body>
 </html>
