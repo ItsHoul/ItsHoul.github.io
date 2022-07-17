@@ -59,6 +59,7 @@ color: black;
 
 .container {
   padding: 0 16px;
+  transition: width 0.25s height 0.25s;
 }
 
 .container::after, .row::after {

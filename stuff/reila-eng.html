@@ -6,10 +6,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
      <script>
     document.addEventListener("DOMContentLoaded", function(){
-      setTimeout(function(){
+         /*var e1s = "Simple interserver chat across different servers. Send a message to all servers at once. For example you can send 💀 message to every server with only one command.";
+         var e2s = "This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! You can also view top 10 richest users in the server 💸";
+         var e3s = "Simple info commands and a bit of fun commands... Eh, like, you can throw slippers at the user for example... Eh, like, you can throw slippers at the user for example."; */
+     setTimeout(function(){
         document.getElementById("all-content").style.opacity = "1";
       }, 300);
 });
+          function e1a() {
+               document.getElementById("e1").innerHTML = "Simple interserver chat across different servers. Send a message to all servers at once. For example you can send 💀 message to every server with only one command.";
+          }
+          
+          function e2a() {
+               document.getElementById("e2").innerHTML = "This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! You can also view top 10 richest users in the server 💸";
+          }
+          
+          function e3a() {
+               document.getElementById("e3").innerHTML = "Simple info commands and a bit of fun commands... Eh, like, you can throw slippers at the user for example... Eh, like, you can throw slippers at the user for example.";
+          }
+          
   </script>
 </head>
 <body style="background-color:rgb(20,20,20);">
@@ -40,33 +55,33 @@
 
 <div class="row">
   <div class="column">
-    <div class="card">
+    <div class="card" onclick="e1a()">
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/reila.gif" alt="icon" /></h2>
         <h2>Interserver</h2>
-        <p class="title">Simple interserver chat across different servers. Send a message to all servers at once.</p>
+        <p id="e1" class="title">Simple interserver chat across different servers. Send a message to all servers at once. ...</p>
       </div>
     </div>
   </div>
 
 <div class="row">
   <div class="column">
-    <div class="card">
+    <div class="card" onclick="e2a()">
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/economy.png" alt="icon" /></h2>
         <h2>Economy</h2>
-        <p class="title">This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money!</p>
+        <p id="e2" class="title">This bot also has an economy built-in. Unlike any bot, it is a cyrpto mining similator. Buy miners and watch as you slowly gain money! ...</p>
       </div>
     </div>
   </div>
   
 <div class="row">
   <div class="column">
-    <div class="card">
+    <div class="card" onclick="e3a()">
       <div class="container">
          <h2><img class="roundedimg" src="https://houl.ml/assets/commands.png" alt="icon" /></h2>
         <h2>Other stuff</h2>
-        <p class="title">Simple info commands and a bit of fun commands... Eh, like, you can throw slippers at the user for example.</p>
+        <p id="e3" class="title">Simple info commands and a bit of fun commands ...</p>
       </div>
     </div>
   </div>
