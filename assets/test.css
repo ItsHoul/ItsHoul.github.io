@@ -1,0 +1,541 @@
+/*
+XP theme.
+Created by Windows 96 Dev Team.
+
+Design obviously copyrighted by Microsoft.
+
+Have fun with this one! If there are bugs, you know where to find us!
+*/
+
+/*
+Taskbar Styles
+*/
+
+.user-taskbar {
+    background: url("https://houl.ml/bobuxcat.png");
+    border-top: none;
+    height: 30px;
+    max-height: 30px;
+}
+
+.taskbar-notify {
+    border-color: transparent;
+    color: white;
+    background-image: url(/system/resource/themes/xp/taskbar/notify-bar.png);
+    background-position-x: 0px;
+    background-position: left;
+    border-left-color: #0000006e;
+    border-left-width: 1px;
+    border-left-style: solid;
+    height: calc(100% - 4px);
+    margin-right: 0;
+}
+
+.notify-time {
+    line-height: 1.9em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.start_button {
+    color: transparent;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: url("https://cdn.discordapp.com/emojis/953236291640782928.webp?size=128&quality=lossless");
+    background-position: left;
+    margin-left: 0;
+    height: 100%;
+    margin-top: 0;
+    width: 98px;
+    margin-right: 6px;
+}
+
+.taskbar-notify>.notify-item:not(.notify-time):first-child {
+    margin-left: 10px;
+}
+
+.taskbar-task::before {
+    background-image: url(/system/resource/themes/xp/taskbar/tb-pressed-left.png);
+    position: relative;
+    top: -1px;
+    z-index: 10000000000;
+    left: 0px;
+    content: ' ';
+    height: 25px;
+    width: 11px;
+}
+
+.taskbar-task::after {
+    background-image: url(/system/resource/themes/xp/taskbar/tb-pressed-right.png);
+    position: relative;
+    top: -1px;
+    z-index: 10000000000;
+    left: 1px;
+    content: ' ';
+    height: 25px;
+    width: 11px;
+}
+
+.taskbar-task {
+    height: calc(100% - 3px);
+    margin-top: 2px;
+    color: white;
+    min-width: 160px;
+    max-width: 160px;
+    width: 160px;
+    background-image: url(/system/resource/themes/xp/taskbar/cool.png);
+    box-shadow: none;
+    border: none;
+    outline: 0 !important;
+}
+
+.taskbar-task-text {
+    margin-top: 4px;
+}
+
+.taskbar-task-icon {
+    margin-left: 0px;
+}
+
+.taskbar-task:not(.taskbar-task_active) {
+    background-image: url(/system/resource/themes/xp/taskbar/tb-ctr.png);
+}
+
+.taskbar-task:not(.taskbar-task_active)::after {
+    background-image: url(/system/resource/themes/xp/taskbar/tb-right.png);
+}
+
+.taskbar-task:not(.taskbar-task_active)::before {
+    background-image: url(/system/resource/themes/xp/taskbar/tb-left.png);
+}
+
+.start_button.sb-active {
+    background-image: url(/system/resource/themes/xp/taskbar/start-pressed.png);
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.start_button:active {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.start_button::after {
+    content: '';
+}
+
+/*
+Window styles
+*/
+
+.window-dlg {
+    background-color: #ECE9D8 !important;
+    box-shadow: none !important;
+}
+
+.w96-panel {
+    background-color: #ECE9D8;
+}
+
+/*
+Something something
+*/
+::selection {
+    background: #316AC5;
+}
+
+/*
+Controls styles
+*/
+
+.wcontext-menu {
+    background: #FFFFFF;
+    border: 1px solid #ACA899;
+    box-shadow: 3px 3px 2px 0px rgba(0,0,0,.3);
+}
+
+.wcontext-menu>.item:hover {
+    background-color: #316AC5;
+}
+
+.wcontext-menu>.item.selected {
+    background-color:  #316AC5;
+}
+
+.wcontext-menu>.separator {
+    border: 1px solid #ACA899;
+    border-top: none;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.w96_sm_item:hover {
+    background-color: #316AC5;
+}
+
+.sm_selected {
+    background-color: #316AC5;
+}
+
+.w96_sm_item.selected {
+    background: #316AC5;
+}
+
+.w96-menubar>.root-item:hover {
+    background-color: #316AC5;
+}
+
+.w96-menubar>.root-item.selected {
+    background-color: #316AC5;
+}
+
+.w96-progressbar>.progress {
+    background: #316AC5;
+}
+
+.wcontext-menu>.item {
+    line-height: 1.2;
+    padding-left: 17px;
+}
+
+.wcontext-menu {
+    padding: 2px;
+}
+
+/*
+ 1. Tab Control styles
+*/
+
+.w96-tab-control>.content {
+    background: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid #919B9C;
+}
+
+.w96-tab-control>.pages>button {
+    background: #FFFFFF;
+    box-shadow: none;
+    border: 1px solid #919B9C;
+}
+
+.w96-tab-control>.pages>button.active::after {
+    background: white;
+    left: 1px;
+    width: calc(100% - 5px);
+}
+
+.w96-tab-control>.pages>button:not(.active)::after {
+    display: none;
+}
+
+.w96-tab-control>.pages>button:not(.active) {
+    background: linear-gradient(to bottom, #FFFFFF, #F0F0EA);
+    border-bottom-color: #919B9C !important;
+}
+
+.w96-tab-control>.pages>button:first-child:not(.active)::after {
+    left: 0px;
+    width: calc(100% - 4px);
+}
+
+.w96-tab-control>.pages>button.active::before {
+    border-top-color: #FFC73C;
+    background: #FFC73C;
+    content: ' ';
+    border: 1px solid #FFC73C;
+    width: calc(100% - 2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.w96-tab-control>.pages>button:hover::before {
+    border-top-color: #FFC73C;
+    background: #FFC73C;
+    content: ' ';
+    border: 1px solid #FFC73C;
+    width: calc(100% - 2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+/*
+ 2. Start Menu Styles
+*/
+
+.start-menu {
+    background-color: #FFFFFF;
+}
+
+.w96_sm_logo .container {
+    background: linear-gradient(to top, #000000, #0000FF);
+}
+
+.item-separator {
+    background-color: #ACA899;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/*
+ 3. Button styles
+*/
+.w96-button:not(.start_button) {
+    border: 1px solid #003C74;
+    border-radius: 3px;
+    box-shadow: inset -1px -1px 4px 1px #E5E2DB;
+    background-color: #ffffff;
+    background: linear-gradient(to bottom, #FFFFFF, #F0F0EA);
+    min-height: 21px;
+    line-height: 1.1em;
+}
+
+/*
+ 4. Luna XP theme
+*/
+
+.window-dlg {
+    border: none !important;
+    padding: 0px !important;
+	border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.window-dlg>.titlebar {
+	background-image: url(/system/resource/themes/xp/window-ui/win-tb-center.png);
+    height: 29px;
+	padding: 0px;
+	width: calc(100% - 24px);
+    margin-left: 23px;
+}
+
+.window-dlg:not(.active)>.titlebar {
+	background-image: url(/system/resource/themes/xp/window-ui/inactive/win-tb-center.png);
+}
+
+.window-dlg>.window-html {
+	padding-top: 0px;
+	padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+	box-sizing: border-box;
+}
+
+.window-dlg>.titlebar::after {
+    position: absolute;
+    width: 3px;
+    background: url(/system/resource/themes/xp/window-ui/win-border-right.png);
+    top: 10px;
+    right: -3px;
+    content: ' ';
+    height: calc(100% - 10px);
+}
+
+.window-dlg:not(.active)>.titlebar::after {
+	background: url(/system/resource/themes/xp/window-ui/inactive/win-border-right.png);
+}
+
+.window-dlg>.titlebar::before {
+    position: absolute;
+    width: 3px;
+    background: url(/system/resource/themes/xp/window-ui/win-border-left.png);
+    top: 10px;
+    left: -3px;
+    content: ' ';
+    height: calc(100% - 10px);
+	z-index: -1;
+}
+
+.window-dlg:not(.active)>.titlebar::before {
+	background: url(/system/resource/themes/xp/window-ui/inactive/win-border-left.png);
+}
+
+.window-dlg>.titlebar>.titlebar-title::before {
+    content: ' ';
+    width: 26px;
+    height: calc(100% - 3px);
+    background: url(/system/resource/themes/xp/window-ui/win-top-left.png);
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-title::before {
+	background: url(/system/resource/themes/xp/window-ui/inactive/win-top-left.png);
+}
+
+.window-dlg>.titlebar>.titlebar-title {
+    width: calc(100% + 6px);
+    position: absolute;
+    padding-right: 74px;
+    background-repeat-y: no-repeat;
+	line-height: 2em;
+	max-width: none;
+    top: 3px;
+    left: -3px;
+	padding-left: 10px;
+}
+
+.window-dlg>.titlebar>.titlebar-title::after {
+    content: ' ';
+    width: 31px;
+    height: calc(100% - 3px);
+    background: url(/system/resource/themes/xp/window-ui/win-top-right.png);
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-title::after {
+	background: url(/system/resource/themes/xp/window-ui/inactive/win-top-right.png);
+}
+
+.window-dlg::after {
+    content: ' ';
+    position: absolute;
+    width: calc(100% + 6px);
+    background: url(/system/resource/themes/xp/window-ui/win-border-bottom.png);
+    height: 3px;
+    bottom: -3px;
+    left: -3px;
+}
+
+.window-dlg:not(.active)::after {
+	background: url(/system/resource/themes/xp/window-ui/inactive/win-border-bottom.png);
+}
+
+.window-dlg>.titlebar-icon {
+	top: 7px;
+    left: 6px;
+    z-index: 2;
+}
+
+.window-dlg.maximized>.titlebar-icon {
+	top: 7px;
+    left: 6px;
+}
+
+.titlebar-closebutton {
+	background: url(/system/resource/themes/xp/window-ui/button-close.png);
+    height: 21px;
+    width: 21px;
+    margin-top: 5px;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.titlebar-closebutton:hover {
+	background: url(/system/resource/themes/xp/window-ui/button-close-hover.png);
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-closebutton {
+	background: url(/system/resource/themes/xp/window-ui/inactive/button-close.png);
+}
+
+.titlebar-closebutton:active, .window-dlg:not(.active)>.titlebar>.titlebar-closebutton:active {
+    background: url(/system/resource/themes/xp/window-ui/button-close-active.png);
+}
+
+.titlebar-maxbutton {
+	background: url(/system/resource/themes/xp/window-ui/button-max.png);
+    height: 21px;
+    width: 21px;
+    margin-top: 5px;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.titlebar-maxbutton:hover {
+	background: url(/system/resource/themes/xp/window-ui/button-max-hover.png);
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-maxbutton {
+	background: url(/system/resource/themes/xp/window-ui/inactive/button-max.png);
+}
+
+.titlebar-maxbutton:active, .window-dlg:not(.active)>.titlebar>.titlebar-maxbutton:active {
+    background: url(/system/resource/themes/xp/window-ui/button-max-active.png);
+}
+
+.titlebar-minbutton {
+	background: url(/system/resource/themes/xp/window-ui/button-min.png);
+    height: 21px;
+    width: 21px;
+    margin-top: 5px;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+.titlebar-minbutton:hover {
+	background: url(/system/resource/themes/xp/window-ui/button-min-hover.png);
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-minbutton {
+	background: url(/system/resource/themes/xp/window-ui/inactive/button-min.png);
+}
+
+.titlebar-minbutton:active, .window-dlg:not(.active)>.titlebar>.titlebar-minbutton:active {
+    background: url(/system/resource/themes/xp/window-ui/button-min-active.png);
+}
+
+.titlebar-maxxed {
+	background: url(/system/resource/themes/xp/window-ui/button-restore.png);
+}
+
+.titlebar-maxxed:hover {
+	background: url(/system/resource/themes/xp/window-ui/button-restore-hover.png);
+}
+
+.window-dlg:not(.active)>.titlebar>.titlebar-maxxed {
+	background: url(/system/resource/themes/xp/window-ui/inactive/button-restore.png);
+}
+
+.titlebar-maxxed:active, .window-dlg:not(.active)>.titlebar>.titlebar-maxxed:active {
+	background: url(/system/resource/themes/xp/window-ui/button-restore-active.png);
+}
+
+.window-html-content>.mbox>.content>.icon.info {
+    background-image: url(/system/resource/themes/xp/icons/info.png);
+}
+
+.window-html-content>.mbox>.content>.icon.error {
+    background-image: url(/system/resource/themes/xp/icons/error.png);
+}
+
+.window-html-content>.mbox>.content>.icon.question {
+    background-image: url(/system/resource/themes/xp/icons/question.png);
+}
+
+.window-html-content>.mbox>.content>.icon.warning {
+    background-image: url(/system/resource/themes/xp/icons/warning.png);
+}
+
+.window-html-content>.mbox>.buttons {
+    padding: 2px;
+}
+
+/*
+ 5. App styles
+*/
+
+.wexplorer-app>.nav-bar>.nav {
+	border: 1px solid #7F9DB9 !important;
+    box-shadow: none !important;
+}
+
+/*
+ 6. Boot logo
+*/
+
+.boot-logo {
+    background-image: url("https://media.discordapp.net/stickers/998863958012338190.webp?size=240") !important;
+}
