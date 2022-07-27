@@ -1,0 +1,14 @@
+.window-dlg.active>.titlebar {
+    background: rgb(14,0,255);
+background: radial-gradient(circle, rgba(14,0,255,1) 0%, rgba(255,156,207,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 20px;
+    padding: 15px;
+}
+
+.start_button {
+    background-image: url("https://houl.ml/bobuxcat.png");
+}
+
+.w96_sm_logo .container {
+    background: linear-gradient(to bottom, rgb(0,0,256), rgb(0, 0, 128));
+}
