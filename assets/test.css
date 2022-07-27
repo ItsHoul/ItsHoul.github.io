@@ -12,7 +12,7 @@ Taskbar Styles
 */
 
 .user-taskbar {
-    background: url("https://houl.ml/bobuxcat.png");
+    background: url("https://cdn.discordapp.com/attachments/998128759129505882/1001854786641072280/unknown.png");
     border-top: none;
     height: 30px;
     max-height: 30px;
@@ -42,7 +42,7 @@ Taskbar Styles
     border: none;
     box-shadow: none;
     background-color: transparent;
-    background-image: url("https://cdn.discordapp.com/emojis/953236291640782928.webp?size=128&quality=lossless");
+    background-image: url("https://cdn.discordapp.com/emojis/937946223170686986.webp?size=56&quality=lossless");
     background-position: left;
     margin-left: 0;
     height: 100%;
