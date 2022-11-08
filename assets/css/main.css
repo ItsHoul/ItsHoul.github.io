@@ -1,0 +1,249 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+  display: inline;
+  padding: 0 500px;
+}
+
+.prikol {
+width: 50%;
+background-color: #000;
+} 
+
+.card {
+  margin: 0px;
+  padding-top: 1px;
+  background-color: #161616;
+  transition-duration: 0.15s;
+  text-decoration: none;
+  cursor: pointer;
+  border-bottom: none;
+  border-top: none;
+  width: 100%;
+}
+
+.card:hover{
+background-color: #fff;
+}
+
+.card:hover .title {
+color: black;
+}
+
+.card:hover h2 {
+color: black;
+}
+
+.card:hover h2 img {
+filter: invert(100%)
+}
+
+
+.about-section {
+  text-align: start;
+  background-color:rgb(15,15,15);
+  color: white;
+}
+
+.about-section img {
+  float: left;
+  width: 38px;
+  height: 38px;
+}
+
+
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+h1 {
+text-align: left;
+font-family: "IBM Plex Sans";
+font-weight: normal;
+font-size: 30px;
+color:white;
+line-height: 15px;
+}
+
+h2 {
+color:white;
+font-family: "IBM Plex Sans";
+font-size: 20px;
+  transition-duration: 0.15s;
+}
+
+h2 img {
+margin-top: 20px;
+float: left;
+clear: left;
+width: 20px;
+margin-bottom: 15px;
+margin-right: 15px;
+transition-duration: 0.15s;
+}
+
+
+.title {
+  color: grey;
+  font-family: "IBM Plex Sans";
+  font-weight:700;
+    transition-duration: 0.15s;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color:rgb(20,20,20);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.button:hover {
+  background-color: #6383ff;
+}
+
+@media screen and (max-width: 1150px) {
+.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+  display: inline;
+  padding: 0 50px;
+}
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(25,25,25);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: "IBM Plex Sans";
+  display: block;
+  color: white;
+  background-color:rgb(25,25,25);
+  text-align: center;
+  padding: 16.5px 21px;
+  text-decoration: none;
+  border-left-color:rgb(25,25,25);
+  transition-duration: 0.2s;
+    border-left-style: solid;
+  border-left-width:0px;
+}
+li p {
+padding-left:10px;
+padding-right:10px;
+}
+
+
+
+
+li a:hover {
+  background-color: #fff;
+  color: black;
+  font-weight: 800;
+  border-left-style: solid;
+border-left-color: #3e4ab5;
+border-left-width:10px;
+padding: 16.5px 30px;
+}
+
+div.card {
+        position: relative;
+}
+
+div.card a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+
+hr {
+  height: 1px;
+  background-color: #202020;
+  border: none;
+  border-radius: 15px;
+}
+
+  .group a {
+    border-radius: 10px;
+    color: white;
+    padding-left: 15px;
+    cursor: pointer;
+    float: center;
+    font-family: "IBM Plex sans";
+    transition-duration: 0.15s;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 500;
+  }
+  
+    .group h1 {
+    border-radius: 10px;
+    color: white;
+    float: center;
+    font-family: "IBM Plex sans";
+    transition-duration: 0.15s;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: bold;
+  }
+
+
+  .group a:hover {
+    filter: brightness(0.80);
+    transition-duration: 0.15s;
+    text-decoration: underline;
+  }
+  
+::-moz-selection { /* Code for Firefox */
+  color: #121212;
+  background: #3d57d9;
+}
+
+::selection {
+  color: #121212;
+  background: #3d57d9;
+}
