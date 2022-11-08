@@ -129,7 +129,17 @@ transition-duration: 0.15s;
   background-color: #6383ff;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1350px) {
+.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 12px;
+  display: inline;
+  padding: 0 100px;
+}
+}
+
+@media screen and (max-width: 800px) {
 .column {
   float: left;
   width: 100%;
