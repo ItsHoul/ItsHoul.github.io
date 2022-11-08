@@ -129,7 +129,7 @@ transition-duration: 0.15s;
   background-color: #6383ff;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1500px) {
 .column {
   float: left;
   width: 100%;
