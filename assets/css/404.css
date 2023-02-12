@@ -1,0 +1,66 @@
+/* rewrite that shit later k thx */
+
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(https://github.com/mrbvrz/segoe-ui-linux/blob/master/font/segoeui.ttf?raw=true) format('woff2');
+}
+
+
+body {
+    background-color: #0078D7;
+    padding-left: 180px;
+    scale: 80%;
+    
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: normal;
+    font-size: 220px;
+    /* line-height: 185px; */
+    line-height: 10px;
+    padding-top: 85px;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: normal;
+    font-size: 42px;
+    padding-left: 18px;
+    line-height: 59px;
+    stroke-width: 40px;
+}
+
+img {
+    width: 115px;
+    padding-left: 19px;
+    padding-top: 6px;
+    float: left;
+    clear:left;
+    margin-right: 18px;
+}
+
+h3 {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.line-2 {
+    padding-top: 23px;
+}
+
+.line-3 {
+    line-height: 6px;
+}
